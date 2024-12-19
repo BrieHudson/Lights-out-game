@@ -1,0 +1,19 @@
+.Cell {
+  height: 80px; /* Adjusted size for better balance */
+  width: 80px;
+  background-color: rgb(232, 101, 101); /* Default background color */
+  border: 2px solid ; /* Subtle border matching forest green */
+  border-radius: 6px; /* Slightly rounded corners for a softer look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add depth with a shadow */
+  cursor: pointer; /* Indicate interactivity */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.Cell:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.Cell-lit {
+  background-color: rgb(203, 235, 147); /* Background color for "lit" state */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow for lit cells */
+}

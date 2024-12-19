@@ -1,0 +1,7 @@
+.Board {
+  margin: 0 auto;
+  background-color: #3a3d3c; /* Dark background for contrast */
+  border: 3px solid #2a5020; /* Subtle border to match forest green */
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
