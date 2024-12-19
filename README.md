@@ -6,9 +6,9 @@ This project implements a grid of cells that users can interact with. By clickin
 
 Technologies Used
 
-React - For creating the interactive UI
-CSS - For styling the board and cells
-JavaScript (ES6) - For the game logic
+- React - For creating the interactive UI
+- CSS - For styling the board and cells
+- JavaScript (ES6) - For the game logic
 
 Installation
 
